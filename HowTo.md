@@ -45,7 +45,7 @@ $ sudo fdisk -l
 $ sudo fdisk /dev/sdb
 ```
 
-![Alt text](./1541134861504.png)
+![Alt text](./img/screen01.png)
 
 - p : partition 현황체크
 - n : new partition(파티션 만드는 명령어)
@@ -56,7 +56,7 @@ $ sudo fdisk /dev/sdb
 $ sudo fdisk -l
 ```
 
-![Alt text](./img/1541135262428.png)
+![Alt text](./img/screen02.png)
 
 
 ## step3. Terminal 작업
@@ -111,39 +111,39 @@ https://<Installer Node hostname/IPaddress>:9443
 
 - 로그인 : admin 계정정보 입력(Terminal 작업간 설정한거)
 
-![Alt text](./img/1541140078862.png)
+![Alt text](./img/screen03.png)
 
 - 읽어보고 Next
 
-![Alt text](./img/1541140398404.png)
+![Alt text](./img/screen04.png)
 
 - MapR Version, Edition 선택(유료 or 무료), License 설정, MapR 계정인증, 용도별 설치파일 설정
 
-![Alt text](./img/1541140174444.png)
+![Alt text](./img/screen05.png)
 
 - Hive, Hue, Oozie, root 관련 설정
 
-![Alt text](./img/1541140431045.png)
+![Alt text](./img/screen06.png)
 
 - 그냥 Next
 
-![Alt text](./img/1541140504782.png)
+![Alt text](./img/screen07.png)
 
 - admin 계정 passwd 입력
 
-![Alt text](./img/1541140608827.png)
+![Alt text](./img/screen08.png)
 
 - Nodes 에 Local IP,  나머지 디스크(ex. /dev/sdb), ssh 접속가능한 계정정보 입력(passwd or private key)
 
-![Alt text](./img/1541140683641.png)
+![Alt text](./img/screen09.png)
 
 - MapR을 설치가 가능한지 여부를 평가(여기서 성공하면 나머지는 그냥 Next)
 
-![Alt text](./img/1541142046555.png)
+![Alt text](./img/screen10.png)
 
 - 설치성공 페이지
 
-![Alt text](./img/1541142150018.png)
+![Alt text](./img/screen11.png)
 
 - GCP 방화벽 규칙에 해당 port에 대한 내용 생성
 
@@ -153,8 +153,8 @@ https://<Installer Node hostname/IPaddress>:9443
 - https://<Installer Node hostname/IPaddress>:8443
 	- mapr admin 계정으로 로그인
 
-![Alt text](./img/1541142763690.png)
+![Alt text](./img/screen12.png)
 
 - 설치된 컴포넌트 목록, 상태 및 리소스 모니터링 제공
 
-![Alt text](./img/1541142823375.png)
+![Alt text](./img/screen13.png)
